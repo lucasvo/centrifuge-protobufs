@@ -1,5 +1,4 @@
 syntax = "proto3";
-
 package p2p;
 
 option go_package = "p2ppb";

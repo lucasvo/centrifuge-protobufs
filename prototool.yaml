@@ -2,12 +2,10 @@ protoc:
   version: 3.6.1
 
   includes:
-    #-
-    - vendor/github.com/grpc-ecosystem/grpc-gateway/
     - vendor/github.com/centrifuge/
 excludes:
   - vendor/github.com/centrifuge/precise-proofs/examples
-
+  - vendor
 lint:
   ignores:
     - id: MESSAGES_HAVE_COMMENTS_EXCEPT_REQUEST_RESPONSE_TYPES
@@ -36,8 +34,6 @@ generate:
 
     # Extra modifiers to include with Mfile=package.
     extra_modifiers:
-      google/api/annotations.proto: google.golang.org/genproto/googleapis/api/annotations
-      google/api/http.proto: google.golang.org/genproto/googleapis/api/annotations
       precise-proofs/proofs/proto/proof.proto: github.com/centrifuge/precise-proofs/proofs/proto
       precise-proofs/proofs/proto/salt.proto: github.com/centrifuge/precise-proofs/proofs/proto
   plugins:
