@@ -62,7 +62,7 @@ func (m *InvoiceData) Reset()         { *m = InvoiceData{} }
 func (m *InvoiceData) String() string { return proto.CompactTextString(m) }
 func (*InvoiceData) ProtoMessage()    {}
 func (*InvoiceData) Descriptor() ([]byte, []int) {
-	return fileDescriptor_invoice_39b6fc7c47efad25, []int{0}
+	return fileDescriptor_invoice_9b76e097e7a1faaa, []int{0}
 }
 func (m *InvoiceData) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_InvoiceData.Unmarshal(m, b)
@@ -247,9 +247,9 @@ func init() {
 	proto.RegisterType((*InvoiceData)(nil), "invoice.InvoiceData")
 }
 
-func init() { proto.RegisterFile("invoice/invoice.proto", fileDescriptor_invoice_39b6fc7c47efad25) }
+func init() { proto.RegisterFile("invoice/invoice.proto", fileDescriptor_invoice_9b76e097e7a1faaa) }
 
-var fileDescriptor_invoice_39b6fc7c47efad25 = []byte{
+var fileDescriptor_invoice_9b76e097e7a1faaa = []byte{
 	// 484 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x93, 0x4f, 0x6f, 0xd3, 0x40,
 	0x10, 0xc5, 0x65, 0x95, 0x26, 0xf1, 0xd8, 0xe9, 0x9f, 0xa5, 0x2d, 0x4b, 0x04, 0x6a, 0x00, 0x21,

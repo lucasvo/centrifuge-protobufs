@@ -67,7 +67,7 @@ func (m *PurchaseOrderData) Reset()         { *m = PurchaseOrderData{} }
 func (m *PurchaseOrderData) String() string { return proto.CompactTextString(m) }
 func (*PurchaseOrderData) ProtoMessage()    {}
 func (*PurchaseOrderData) Descriptor() ([]byte, []int) {
-	return fileDescriptor_purchaseorder_552889a0d709486c, []int{0}
+	return fileDescriptor_purchaseorder_e0ebe72eba5354ba, []int{0}
 }
 func (m *PurchaseOrderData) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_PurchaseOrderData.Unmarshal(m, b)
@@ -260,10 +260,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("purchaseorder/purchaseorder.proto", fileDescriptor_purchaseorder_552889a0d709486c)
+	proto.RegisterFile("purchaseorder/purchaseorder.proto", fileDescriptor_purchaseorder_e0ebe72eba5354ba)
 }
 
-var fileDescriptor_purchaseorder_552889a0d709486c = []byte{
+var fileDescriptor_purchaseorder_e0ebe72eba5354ba = []byte{
 	// 498 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x93, 0xcf, 0x6f, 0xd3, 0x30,
 	0x14, 0xc7, 0x15, 0xc6, 0xda, 0xc6, 0x6d, 0xd7, 0xd5, 0x0c, 0x30, 0x05, 0x44, 0x07, 0x42, 0x2a,

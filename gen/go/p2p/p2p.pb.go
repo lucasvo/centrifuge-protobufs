@@ -45,7 +45,7 @@ func (x AccessType) String() string {
 	return proto.EnumName(AccessType_name, int32(x))
 }
 func (AccessType) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{0}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{0}
 }
 
 type Header struct {
@@ -63,7 +63,7 @@ func (m *Header) Reset()         { *m = Header{} }
 func (m *Header) String() string { return proto.CompactTextString(m) }
 func (*Header) ProtoMessage()    {}
 func (*Header) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{0}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{0}
 }
 func (m *Header) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Header.Unmarshal(m, b)
@@ -123,7 +123,7 @@ func (m *Envelope) Reset()         { *m = Envelope{} }
 func (m *Envelope) String() string { return proto.CompactTextString(m) }
 func (*Envelope) ProtoMessage()    {}
 func (*Envelope) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{1}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{1}
 }
 func (m *Envelope) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Envelope.Unmarshal(m, b)
@@ -168,7 +168,7 @@ func (m *SignatureRequest) Reset()         { *m = SignatureRequest{} }
 func (m *SignatureRequest) String() string { return proto.CompactTextString(m) }
 func (*SignatureRequest) ProtoMessage()    {}
 func (*SignatureRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{2}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{2}
 }
 func (m *SignatureRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_SignatureRequest.Unmarshal(m, b)
@@ -206,7 +206,7 @@ func (m *SignatureResponse) Reset()         { *m = SignatureResponse{} }
 func (m *SignatureResponse) String() string { return proto.CompactTextString(m) }
 func (*SignatureResponse) ProtoMessage()    {}
 func (*SignatureResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{3}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{3}
 }
 func (m *SignatureResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_SignatureResponse.Unmarshal(m, b)
@@ -244,7 +244,7 @@ func (m *AnchorDocumentRequest) Reset()         { *m = AnchorDocumentRequest{} }
 func (m *AnchorDocumentRequest) String() string { return proto.CompactTextString(m) }
 func (*AnchorDocumentRequest) ProtoMessage()    {}
 func (*AnchorDocumentRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{4}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{4}
 }
 func (m *AnchorDocumentRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AnchorDocumentRequest.Unmarshal(m, b)
@@ -282,7 +282,7 @@ func (m *AnchorDocumentResponse) Reset()         { *m = AnchorDocumentResponse{}
 func (m *AnchorDocumentResponse) String() string { return proto.CompactTextString(m) }
 func (*AnchorDocumentResponse) ProtoMessage()    {}
 func (*AnchorDocumentResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{5}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{5}
 }
 func (m *AnchorDocumentResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AnchorDocumentResponse.Unmarshal(m, b)
@@ -324,7 +324,7 @@ func (m *GetDocumentRequest) Reset()         { *m = GetDocumentRequest{} }
 func (m *GetDocumentRequest) String() string { return proto.CompactTextString(m) }
 func (*GetDocumentRequest) ProtoMessage()    {}
 func (*GetDocumentRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{6}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{6}
 }
 func (m *GetDocumentRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_GetDocumentRequest.Unmarshal(m, b)
@@ -391,7 +391,7 @@ func (m *AccessTokenRequest) Reset()         { *m = AccessTokenRequest{} }
 func (m *AccessTokenRequest) String() string { return proto.CompactTextString(m) }
 func (*AccessTokenRequest) ProtoMessage()    {}
 func (*AccessTokenRequest) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{7}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{7}
 }
 func (m *AccessTokenRequest) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_AccessTokenRequest.Unmarshal(m, b)
@@ -436,7 +436,7 @@ func (m *GetDocumentResponse) Reset()         { *m = GetDocumentResponse{} }
 func (m *GetDocumentResponse) String() string { return proto.CompactTextString(m) }
 func (*GetDocumentResponse) ProtoMessage()    {}
 func (*GetDocumentResponse) Descriptor() ([]byte, []int) {
-	return fileDescriptor_p2p_cd3940b77c885280, []int{8}
+	return fileDescriptor_p2p_93b7112e57cb2a21, []int{8}
 }
 func (m *GetDocumentResponse) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_GetDocumentResponse.Unmarshal(m, b)
@@ -476,9 +476,9 @@ func init() {
 	proto.RegisterEnum("p2p.AccessType", AccessType_name, AccessType_value)
 }
 
-func init() { proto.RegisterFile("p2p/p2p.proto", fileDescriptor_p2p_cd3940b77c885280) }
+func init() { proto.RegisterFile("p2p/p2p.proto", fileDescriptor_p2p_93b7112e57cb2a21) }
 
-var fileDescriptor_p2p_cd3940b77c885280 = []byte{
+var fileDescriptor_p2p_93b7112e57cb2a21 = []byte{
 	// 598 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xa4, 0x54, 0x4d, 0x6f, 0xd3, 0x40,
 	0x10, 0xc5, 0xfd, 0x22, 0x9d, 0xa4, 0xb4, 0xdd, 0x16, 0x1a, 0x95, 0x0a, 0x82, 0x11, 0x55, 0x41,

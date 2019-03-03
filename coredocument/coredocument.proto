@@ -1,4 +1,5 @@
-syntax = "proto2";
+syntax = "proto3";
+
 package coredocument;
 
 option go_package = "coredocumentpb";
