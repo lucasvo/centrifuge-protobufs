@@ -39,6 +39,7 @@ generate:
       google/api/annotations.proto: google.golang.org/genproto/googleapis/api/annotations
       google/api/http.proto: google.golang.org/genproto/googleapis/api/annotations
       precise-proofs/proofs/proto/proof.proto: github.com/centrifuge/precise-proofs/proofs/proto
+      precise-proofs/proofs/proto/salt.proto: github.com/centrifuge/precise-proofs/proofs/proto
   plugins:
       - name: go
         type: go
