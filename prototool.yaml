@@ -42,6 +42,3 @@ generate:
         output: gen/go/
         flags: plugins=grpc
 
-      - name: grpc-gateway
-        type: go
-        output: gen/go/
